@@ -1,0 +1,21 @@
+<web-app>
+  <servlet>
+  <servlet-name>GetBookingsServlet</servlet-name>
+  <servlet-class>GetBookingsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>GetBookingsServlet</servlet-name>
+  <url-pattern>/getbookings</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+  <servlet-name>GetSeatsServlet</servlet-name>
+  <servlet-class>GetSeatsServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+  <servlet-name>GetSeatsServlet</servlet-name>
+  <url-pattern>/getseats</url-pattern>
+  </servlet-mapping>
+</web-app>
